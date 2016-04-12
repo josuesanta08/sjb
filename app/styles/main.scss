@@ -1,0 +1,47 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import 'bootstrap-sass-official/assets/stylesheets/_bootstrap.scss';
+// endbower
+
+@import 'variables.scss';
+
+
+.header {
+	.logo {
+		margin-top: 5px;
+		max-width: 75px;
+		position: absolute;
+	}
+
+	.navbar-default {
+		background-color: white;
+		border-color: white;
+	}
+}
+
+.chart-container {
+	padding: 40px 0;
+}
+
+.color-0 {
+
+  color: $color-team-1;
+}
+
+.color-1 {
+  color: $color-team-2;
+}
+
+.color-2 {
+  color: $color-team-3;
+}
+
+.inputs {
+  .team {
+    padding-bottom: 15px; 
+
+    .title {
+      margin-bottom: 5px;
+    }
+  }
+}
